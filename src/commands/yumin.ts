@@ -13,7 +13,7 @@ const command: GluegunCommand = {
 
     print.newline()
 
-    print.highlight(`   UX Engineer \u001b[37mor \u001b[33mDevOps Engineer`)
+    print.highlight(`   UX Engineer \u001b[37mand \u001B[32mRunner`)
 
     print.newline()
 
@@ -22,6 +22,9 @@ const command: GluegunCommand = {
     )
     print.info(
       `   \u001b[47m\u001b[30m    Blog \u001b[0m\u001b[4m https://yumin.blog\u001b[0m`
+    )
+    print.info(
+      `   \u001b[47m\u001b[30m  Strava \u001b[0m\u001b[4m https://www.strava.com/athletes/yumin-jung\u001b[0m`
     )
 
     print.newline()
