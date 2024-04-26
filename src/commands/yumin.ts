@@ -13,7 +13,7 @@ const command: GluegunCommand = {
 
     print.newline()
 
-    print.highlight(`   UX Engineer \u001b[37mand \u001B[32mRunner`)
+    print.highlight(`   UX Engineer \u001b[37mand \u001B[93mMarathoner`)
 
     print.newline()
 
@@ -29,7 +29,7 @@ const command: GluegunCommand = {
 
     print.newline()
 
-    print.info(`   Good Luck 🍀`)
+    print.info(`   Pain is inevitable, Suffering is optional.`)
 
     print.newline()
     print.newline()
