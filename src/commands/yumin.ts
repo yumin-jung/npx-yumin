@@ -29,7 +29,7 @@ const command: GluegunCommand = {
 
     print.newline()
 
-    print.info(`   Pain is inevitable, Suffering is optional.`)
+    print.info(`   🏃🏻‍➡️ Pain is inevitable, Suffering is optional.`)
 
     print.newline()
     print.newline()
