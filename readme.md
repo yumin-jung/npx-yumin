@@ -20,7 +20,11 @@ $ npm run build
 $ npm publish
 ```
 
+# Reference
+
+- [github/gh-skyline](https://github.com/github/gh-skyline)
+- [grubersjoe/github-contributions-api](https://github.com/grubersjoe/github-contributions-api)
+
 # License
 
 MIT - see LICENSE
-
