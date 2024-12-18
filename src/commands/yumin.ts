@@ -8,7 +8,7 @@ const command: GluegunCommand = {
 
     // Loading animation setup
     let loadingInterval: NodeJS.Timer | null = null
-    const loadingFrames = ['|', '/', '-', '\\']
+    const loadingFrames = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']
     let frameIndex = 0
 
     const startLoading = () => {
@@ -17,7 +17,7 @@ const command: GluegunCommand = {
           `\r   Fetching GitHub Contributions... ${loadingFrames[frameIndex]}`
         )
         frameIndex = (frameIndex + 1) % loadingFrames.length
-      }, 100)
+      }, 80)
     }
 
     const stopLoading = () => {
@@ -27,7 +27,7 @@ const command: GluegunCommand = {
       }
       process.stdout.write('\r                                  \r')
       process.stdout.write(
-        '\r   My GitHub contributions for 3 years:             \n\n\n'
+        '\r   My GitHub Contributions for 3 Years:             \n\n\n'
       )
     }
 
