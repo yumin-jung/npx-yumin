@@ -11,9 +11,7 @@ const command: GluegunCommand = {
     print.info(`Hello, my name is Yumin Jung.`)
     print.newline()
 
-    // print.info(`   \x1b[32mSoftware Engineer, Frontend\x1b[0m`)
-    // print.newline()
-
+    print.info('----')
     print.info(
       `I am a \x1b[32msoftware engineer\x1b[0m with a strong focus on frontend development, specializing in web, extended reality (XR), and iOS applications. With a background in UX/UI design, I strive to create seamless, intuitive, and user-centric digital experiences.`
     )
@@ -24,7 +22,8 @@ const command: GluegunCommand = {
     )
     print.newline()
 
-    print.info(`I would like to introduce some of my recent projects.`)
+    print.info('----')
+    print.info(`These are some of my recent projects.`)
     print.newline()
 
     print.info(`- AutoPalp: AR-Powered Palpation Assistance`)
@@ -42,8 +41,8 @@ const command: GluegunCommand = {
       `I developed a research-driven iOS application for depression symptom analysis and data collection, with ResearchKit and CareKit to facilitate structured data gathering for clinical studies. This project allowed me to gain practical experience in iOS development for digital health research, focusing on patient-centric UX, secure data management, and real-world clinical integration.`
     )
     print.newline()
-    print.newline()
 
+    print.info('----')
     print.info(
       `Beyond software engineering, I am a dedicated marathoner who thrives on endurance, discipline, and continuous improvement—principles that also shape my approach to engineering. I am also an persevering reader, constantly seeking new knowledge and perspectives to expand my thinking. Additionally, I have a deep appreciation for coffee, which fuels my creativity and focus throughout the day.`
     )
