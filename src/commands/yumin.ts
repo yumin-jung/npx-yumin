@@ -13,12 +13,12 @@ const command: GluegunCommand = {
 
     print.info('----')
     print.info(
-      `I am a \x1b[32msoftware engineer\x1b[0m with a strong focus on frontend development, specializing in web, extended reality (XR), and iOS applications. With a background in UX/UI design, I strive to create seamless, intuitive, and user-centric digital experiences.`
+      `I am a \x1b[32msoftware engineer\x1b[0m with a strong focus on frontend development, extended reality (XR), and iOS applications. With a background in UX/UI design, I strive to create seamless, intuitive, and user-centric digital experiences.`
     )
     print.newline()
 
     print.info(
-      `I am driven by a passion for solving meaningful challenges, particularly in \x1b[32mdigital healthcare\x1b[0m and \x1b[32mmental well-being\x1b[0m. My goal is to develop technology that not only performs efficiently but also makes a tangible impact on people’s lives.`
+      `I am contributing to the \x1b[32mdigital healthcare\x1b[0m and \x1b[32mmental well-being\x1b[0m domains. My goal is to develop technology that not only makes a tangible impact on people’s lives but also performs efficiently.`
     )
     print.newline()
 
@@ -44,7 +44,7 @@ const command: GluegunCommand = {
 
     print.info('----')
     print.info(
-      `Beyond software engineering, I am a dedicated marathoner who thrives on endurance, discipline, and continuous improvement—principles that also shape my approach to engineering. I am also an persevering reader, constantly seeking new knowledge and perspectives to expand my thinking. Additionally, I have a deep appreciation for coffee, which fuels my creativity and focus throughout the day.`
+      `Beyond software engineering, I am a dedicated marathoner who thrives on endurance, discipline, and continuous improvement—principles that also shape my approach to engineering. I am also an persevering reader, constantly seeking new knowledge and perspectives to expand my thinking. Additionally, I have a deep appreciation for coffee, which fuels my focus throughout the day.`
     )
     print.newline()
     print.newline()

@@ -7,12 +7,12 @@ const cli = async (cmd) =>
 
 test('outputs version', async () => {
   const output = await cli('--version')
-  expect(output).toContain('1.5.1')
+  expect(output).toContain('1.5.2')
 })
 
 test('outputs help', async () => {
   const output = await cli('--help')
-  expect(output).toContain('1.5.1')
+  expect(output).toContain('1.5.2')
 })
 
 test('generates file', async () => {
