@@ -13,7 +13,7 @@ const command: GluegunCommand = {
 
     print.info('----')
     print.info(
-      `I am a \x1b[32msoftware engineer\x1b[0m with a strong focus on frontend development, extended reality (XR), and iOS applications. With a background in UX/UI design, I strive to create seamless, intuitive, and user-centric digital experiences.`
+      `I am a \x1b[32msoftware engineer\x1b[0m who quickly learns and adapts to new technologies, making me a strong generalist. I enjoy working across different tech stacks and have a keen interest in startups, where I can contribute to innovation in a fast-paced environment.`
     )
     print.newline()
 
